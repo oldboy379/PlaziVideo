@@ -4,6 +4,10 @@ body {
   background: #21c08b;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .header {
   align-items: center;
   background: #21c08b;
