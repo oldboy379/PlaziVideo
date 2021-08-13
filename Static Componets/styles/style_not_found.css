@@ -19,7 +19,7 @@ body {
     margin-left: 30px;
 }
 
-.login {
+.notFound {
     background: linear-gradient(#21c08b, #ab88ff);
     display: flex;
     align-items: center;
@@ -29,7 +29,7 @@ body {
     min-height: calc(100vh - 200px);
 }
 
-.login__container {
+.notFound__container {
     color: white;
     padding: 0px 68px 40px;
     min-height: 600px;
@@ -40,18 +40,18 @@ body {
     flex-direction: column;
 }
 
-.login__container h1 {
+.notFound__container h1 {
     margin: 10px;
     font-size: 100px;
     transition: 650ms all;
     cursor: default;
 }
 
-.login__container h1:hover {
+.notFound__container h1:hover {
     font-size: 150px;
 }
 
-.login__container h2 {
+.notFound__container h2 {
     margin: 0;
     cursor: default;
 }

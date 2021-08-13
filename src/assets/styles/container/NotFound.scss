@@ -1,0 +1,36 @@
+.notFound {
+  background: linear-gradient(#21c08b, #ab88ff);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0px, 30px;
+  min-height: calc(100vh - 200px);
+}
+
+.notFound__container {
+  color: white;
+  padding: 0px 68px 40px;
+  min-height: 600px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.notFound__container h1 {
+  margin: 10px;
+  font-size: 100px;
+  transition: 650ms all;
+  cursor: default;
+}
+
+.notFound__container h1:hover {
+  font-size: 150px;
+}
+
+.notFound__container h2 {
+  margin: 0;
+  cursor: default;
+}
